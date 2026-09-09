@@ -1,12 +1,12 @@
 import GithubContribution from "@/components/GithubContribution";
-import MarwaBibi from "@/components/MarwaBibi";
+import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import { ScrollProvider } from "@/components/Providers/ScrollProvider";
 
 export default function Home() {
   return (
     <ScrollProvider>
-      <MarwaBibi />
+      <Hero />
       <Intro />
       <GithubContribution />
     </ScrollProvider>
