@@ -1,15 +1,15 @@
 const social = {
-  title: "Mohamed Boukthir",
-  author: "Mohamed Boukthir",
-  headerTitle: "mohamedboukthir",
-  description: "Software Developer",
+  title: "Marwa Bibi",
+  author: "Marwa Bibi",
+  headerTitle: "marwa-khan",
+  description: "Software Developer & ML Enthusiast",
   language: "en-us",
   theme: "dark", // system, dark or light
-  email: "medboukthir7@gmail.com",
-  github: "https://github.com/MohamedBoukthir",
-  facebook: "https://www.facebook.com/mo74med.b",
-  linkedin: "https://www.linkedin.com/in/mohamedboukthir/",
-  spotify: "https://open.spotify.com/user/31nsehshomjimjzivqmjxu4dmhvu",
+  email: "marwakhan1st@gmail.com",
+  github: "https://github.com/Marwa-Khan",
+  linkedin: "https://www.linkedin.com/in/marwa-khan-sw/",
+  medium: "https://medium.com/@marwakhan211",
+  dev: "https://dev.to/marwa_bibi",
   locale: "tn-TN",
 };
 

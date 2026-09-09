@@ -33,7 +33,7 @@ This project serves as my online portfolio to showcase my skills, projects, and 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MohamedBoukthir/MyPortfolio.git
+   git clone https://github.com/Marwa-Khan/MyPortfolio.git
 
 
 2. Navigate to the project directory:
@@ -62,8 +62,8 @@ I welcome any feedback or suggestions for improvement. Feel free to open an issu
 
 ## Contact
 
-Email: medboukthir7@gmail.com <br/>
-LinkedIn: https://www.linkedin.com/in/mohamedboukthir/ <br/>
+Email: marwakhan1st@gmail.com <br/>
+LinkedIn: https://www.linkedin.com/in/marwa-khan-sw/ <br/>
 Portfolio: https://mohamedboukthir.vercel.app/ 
 
 

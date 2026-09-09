@@ -14,7 +14,7 @@ export default function About() {
             <div className="flex justify-center w-auto md:justify-start min-w-fit">
               <Image
                 src={me}
-                alt="Mohamed Boukthir"
+              alt="Marwa Bibi"
                 height={350}
                 className="object-cover w-auto"
                 quality={100}
@@ -24,7 +24,7 @@ export default function About() {
             <div className="flex flex-col space-y-6">
               <article className="flex flex-col space-y-2">
                 <h2 className="text-3xl font-bold tracking-tight  self-center md:self-start">
-                  Mohamed Boukthir
+                 Marwa Bibi
                 </h2>
                 <h3 className="text-sm font-semibold self-center md:self-start">
                   Software Developer

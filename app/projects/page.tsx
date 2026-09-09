@@ -2,8 +2,8 @@ import Projects from "@/components/Projects/Projects";
 import SectionContainer from "@/components/SectionContainer";
 
 export const metadata = {
-  title: "Projects - Mohamed Boukthir",
-  description: "My projects - Mohamed Boukthir",
+  title: "Projects - Marwa Bibi",
+  description: "My projects - Marwa Bibi",
 };
 
 export default function page() {

@@ -2,8 +2,8 @@ import Experience from "@/components/Experience/Experience";
 import MainLayout from "@/components/layouts/MainLayout";
 
 export const metadata = {
-  title: "Experience - Mohamed Boukthir",
-  description: "My experience - Mohamed Boukthir",
+  title: "Experience - Marwa Bibi",
+  description: "My experience - Marwa Bibi",
 };
 
 export default function page() {

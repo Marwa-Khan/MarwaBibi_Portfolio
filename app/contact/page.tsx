@@ -2,8 +2,8 @@ import Contact from "@/components/Contact/Contact";
 import MainLayout from "@/components/layouts/MainLayout";
 
 export const metadata = {
-  title: "Contact - Mohamed Boukthir",
-  description: "Contact me- Mohamed Boukthir",
+  title: "Contact - Marwa Bibi",
+  description: "Contact me - Marwa Bibi",
 };
 
 export default function page() {

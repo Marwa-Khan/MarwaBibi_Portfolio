@@ -3,8 +3,8 @@ import MainLayout from "@/components/layouts/MainLayout";
 import React from "react";
 
 export const metadata = {
-  title: "About - Mohamed Boukthir",
-  description: "About me - Mohamed Boukthir",
+  title: "About - Marwa Bibi",
+  description: "About me - Marwa Bibi",
 };
 
 export default function page() {
