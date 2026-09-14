@@ -1,59 +1,32 @@
-import Iset from "../public/iset.jpg";
+import UniOulu from "../public/unioulu.jpeg";
 import Enactus from "../public/enactus.png";
-import IssatGafsa from "../public/issatgafsa.png";
+import Aico from "../public/aico.png";
 
 export const experience = [
   {
-    company: "ISSAT Gafsa",
-    position: "Security Engineer",
-    time: "Jan 2025 - Jun 2025",
+    company: "Aico Group Oy",
+    position: "Master's Thesis Researcher",
+    time: "Jan 2026 - Jun 2026",
     description:
-      "A modern and secure platform with advanced authentication system using password hashing and face recognition technology.",
+      "Developed an AI-powered sales automation system to support early-stage B2B sales through document analysis, contact identification, and personalized outreach.",
     task: [
-      "Built secure authentication system with password hashing and face recognition",
-      "Designed role-based dashboards for students, recruiters, and admins",
-      "Implemented real-time form validation for enhanced user experience",
-      "Tested and improved face recognition system for accurate and secure login",
+      "Built a RAG pipeline using LlamaIndex, ChromaDB, sentence-transformers, and Gemini for analyzing annual reports and company documents.",
+      "Designed company-fit scoring and ICP contact identification workflows to support sales prospecting and prioritization.",
+      "Developed grounded, personalized outreach generation with compliance checks and CRM-oriented workflow integration.",
     ],
-    logo: IssatGafsa,
+    logo: Aico,
   },
   {
-    company: "Iset Mahdia",
-    position: "Full Stack Developer",
-    time: "Dec 2022 - May 2023",
+    company: "M3S Research Unit — University of Oulu",
+    position: "ML Research Intern",
+    time: "May 2025- Aug 2025",
     description:
-      "A collaboration between ISET Mahdia and ISSAT Mahdia has resulted in a modern and secure solution aimed at optimizing internship and training processes",
+      "Worked on route decision-support research by combining routing, contextual data, and structured information for downstream machine learning tasks.",
     task: [
-      "Frontend Development and UI Enhancement",
-      "Feature Implementation with Node.js and Express.js",
-      "Version Control and Collaboration.",
+      "Built routing workflows using OpenStreetMap and Valhalla to extract route and mobility-related information.",
+      "Integrated contextual data such as weather and represented relationships using Neo4j.",
+      "Created and prepared structured datasets for future machine learning and route-ranking experiments.",
     ],
-    logo: IssatGafsa,
-  },
-  {
-    company: "Iset Mahdia",
-    position: "Full Stack Developer",
-    time: "Dec 2022 - May 2023",
-    description:
-      "A collaboration between ISET Mahdia and ISSAT Mahdia has resulted in a modern and secure solution aimed at optimizing internship and training processes",
-    task: [
-      "Frontend Development and UI Enhancement",
-      "Feature Implementation with Node.js and Express.js",
-      "Version Control and Collaboration.",
-    ],
-    logo: Iset,
-  },
-  {
-    company: "Enactus",
-    position: "Marketing Team Leader",
-    time: " Nov 2020 - Jun 2021",
-    description:
-      "As a accomplished professional, I stand out with effective communication and seamless collaboration. My adaptability and efficient time management enable innovative problem-solving.",
-    task: [
-      "Optimize Project Timelines.",
-      "Develop Adaptive Project Strategies.",
-      "Implement Creative Problem-Solving Workshops.",
-    ],
-    logo: Enactus,
+    logo: UniOulu,
   },
 ];

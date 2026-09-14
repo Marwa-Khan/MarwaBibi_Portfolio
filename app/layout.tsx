@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mohamedboukthir.vercel.app/"),
   title: "Marwa Bibi | Portfolio",
   description:
-    "Building the future with creativity and caffeine. Join me on this exciting digital journey.",
+    "Transforming Ideas into Reality. Join me on this exciting digital journey.",
   openGraph: {
     title: "Marwa Bibi | Portfolio",
-    description: "Building the future with creativity and caffeine. Join me on this exciting digital journey.",
+    description: "Transforming Ideas into Reality. Join me on this exciting digital journey.",
     url: "https://mohamedboukthir.vercel.app/",
     siteName: "mohamedboukthir.vercel.app",
     type: "website",

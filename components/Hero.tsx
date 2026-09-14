@@ -35,7 +35,7 @@ export default function Hero(): ReactElement {
               Marwa Bibi
               </h1>
               <h2 className="text-3xl font-medium opacity-80 sm:text-5xl md:text-5xl xl:text-5xl xl:leading-[3.5rem] text-justify ">
-              Software professional — building what matters.
+              Software professional, building what matters.
               </h2>
               <Link
                 href="/about"

@@ -14,8 +14,7 @@ export default function page() {
           My Projcts
         </h1>
         <p className="text-lg text-gray-500 dark:text-gray-400">
-          Here are some of my most important and recent projects that I have
-          been working on.
+          Here are some of my relevant projects that I have worked on.
         </p>
       </div>
       <Projects />

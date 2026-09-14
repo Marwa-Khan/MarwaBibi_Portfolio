@@ -1,143 +1,96 @@
 import { Project } from "@/Interface/projects";
-import Wave from "../public/wave.jpg";
-import Medicare from "../public/medicare.jpg";
-import Shop from "../public/e-commerce.png";
-import Security from "../public/security.jpg";
-import Java from "../public/java.jpg";
-import Swiftwheels from "../public/swiftwheels.png"
-import Readly from "../public/readly.jpg"
 
 export const projects: Project[] = [
   {
-    slug: "readly",
-    title: "Readly",
-    brief: "A Book Social Network for sharing, borrowing, and returning books. Built with Spring Boot and Angular, featuring user-friendly interfaces, file upload for book covers, email verification, and secure account management.",
-    description:
-      "A platform for sharing, borrowing, and returning books.",
-    image: Readly,
+    slug: "ai-sales-automation",
+    title: "AI-Powered Sales Automation System",
+    brief: "Built an AI-powered system that analyzes company documents, identifies relevant prospects, and generates grounded personalized outreach using RAG and LLMs.",
+    description: `This project was developed as part of my Master’s thesis in collaboration with Aico Group Oy. The goal was to explore how large language models and retrieval-augmented generation could support early-stage B2B sales workflows.
+
+The system analyzes annual reports and other company information to identify business pain points, evaluate company fit, and support contact identification and personalized outreach generation. A retrieval-based knowledge layer grounds generated outputs in relevant company and product information, helping improve relevance and reliability.
+
+The project focused not only on generation, but also on designing a practical workflow around grounding, evaluation, compliance checks, and integration with an existing sales process.`,
+    image: undefined,
     stack: [
-      "Java",
-      "Spring Boot",
-      "keycloak",
-      "Spring Data JPA",
-      "TypeScript",
+      "Python",
+      "LlamaIndex",
+      "Gemini",
+      "Hugging Face",
+      "Sentence Transformers",
+      "ChromaDB",
+      "RAG",
+      "NLP",
+    ],
+    url: "",
+    repository: "https://github.com/Marwa-Khan/AICO-B2B-SALES-AI-AGENT",
+  },
+  {
+    slug: "magicface-reproduction",
+    title: "MagicFace Reproduction",
+    brief: "Reproduced an Action Unit-controlled facial editing pipeline and evaluated its ability to modify expressions while preserving identity.",
+    description: `This project focused on reproducing MagicFace, a research approach for controllable facial editing using facial Action Units as conditioning signals.
+
+I recreated the inference and experimental pipeline and investigated how different facial expressions could be generated while maintaining the identity and visual characteristics of the original subject. In addition to qualitative results, I carried out quantitative identity-preservation evaluation to assess the generated outputs.
+
+The project involved understanding an existing research implementation, reproducing its environment and workflow, handling model dependencies, and evaluating the reproduced results systematically.`,
+    image: undefined,
+    stack: [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "Diffusers",
+      "Computer Vision",
+      "Deep Learning",
+      "Facial Action Units",
+      "Jupyter",
+    ],
+    url: "",
+    repository: "https://github.com/Marwa-Khan/magicface-video-synthesis-reproduction",
+  },
+  {
+    slug: "saunatonttu",
+    title: "Saunatonttu",
+    brief: "Developed a Flutter-based sauna companion application using Bluetooth sensor data, session tracking, statistics, and personalized post-session insights.",
+    description: `Saunatonttu is a mobile application designed to enhance the sauna experience through real-time sensor data and session tracking.
+
+The application connects to RuuviTag sensors over Bluetooth and uses temperature and environmental readings to support sauna-session monitoring. I worked on several product features including session logic, pause and cooldown handling, onboarding improvements, all-time statistics, and personalized post-session insights.
+
+The project gave me hands-on experience working across mobile development, Bluetooth communication, sensor data, application state, UI behavior, and user-focused product development.`,
+    image: undefined,
+    stack: [
+      "Flutter",
+      "Dart",
+      "Bluetooth Low Energy",
+      "RuuviTag",
+      "Sensor Data",
+      "Mobile Development",
+    ],
+    url: "",
+    repository: "",
+  },
+  {
+    slug: "expense-budget-tracker",
+    title: "Expense Budget Tracker",
+    brief: "Built a microservices-based expense tracking platform for managing financial data, user accounts, and notifications across containerized services.",
+    description: `The Expense Budget Tracker is a web-based personal finance application designed around a microservices architecture.
+
+The system separates authentication, expense management, account functionality, and notification processing into independent services. Each service uses its own PostgreSQL database, while RabbitMQ supports asynchronous communication for background tasks such as email notifications.
+
+The services were containerized using Docker and orchestrated locally with Docker Compose. The application was also deployed using Kubernetes on CSC Rahti, giving the project a strong focus on backend architecture, service communication, containerization, and cloud-native deployment.`,
+    image: undefined,
+    stack: [
+      "Python",
+      "FastAPI",
       "PostgreSQL",
-      "Angular",
-      "Tailwind CSS",
+      "RabbitMQ",
       "Docker",
-      "GitHub Actions",
+      "Docker Compose",
+      "Kubernetes",
+      "CSC Rahti",
+      "REST APIs",
+      "Microservices",
     ],
     url: "",
-    repository: "https://github.com/MohamedBoukthir/readly",
-  },
-  {
-    slug: "swiftwheels",
-    title: "SwiftWheels",
-    brief: "Redefining car rentals with a dynamic web app that offers seamless booking, real-time availability, and an intuitive user interface.",
-    description:
-      "SwiftWheels is a powerful Car Rental Project! I'll show you how to build a dynamic web app with Spring Boot, Angular, daisy UI, tailwindCSS, and MySQL.",
-    image: Swiftwheels,
-    stack: [
-      "Java",
-      "Spring Boot",
-      "Spring Security",
-      "Spring Data JPA",
-      "TypeScript",
-      "MySQL",
-      "Angular",
-      "Tailwind CSS",
-    ],
-    url: "",
-    repository: "https://github.com/MohamedBoukthir/Car_Rental",
-  },
-  {
-    slug: "wave",
-    title: "Wave",
-    brief: "Share thoughts in a snap, connect with friends, and stay updated.",
-    description:
-      "Meet Wave – share your thoughts in a snap, connect with friends, and stay updated with what's happening. It's social media made easy.",
-    image: Wave,
-    stack: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "MongoDB",
-      "Node.js",
-      "Clerk",
-      "Tailwind CSS",
-    ],
-    url: "https://wave-pi.vercel.app/",
-    repository: "https://github.com/MohamedBoukthir/Wave",
-  },
-  {
-    slug: "medicare",
-    title: "Medicare",
-    brief: "Easy doctor appointments, quick bookings.",
-    description:
-      "Book doctor appointments hassle-free with our simple web app. Quick and secure payments included.",
-    image: Medicare,
-    stack: [
-      "React",
-      "JavaScript",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-      "Tailwind CSS",
-    ],
-    url: "",
-    repository:
-      "https://github.com/MohamedBoukthir/Doctor-Appointment-Booking-MERN-Stack",
-  },
-  {
-    slug: "shop",
-    title: "Shop",
-    brief:
-      "Your go-to for easy, secure online shopping. Explore, click, and enjoy doorstep delivery. ",
-    description:
-      "Welcome to Shop Now – where your online shopping experience is simplified. Discover a world of products, click to purchase, and enjoy seamless doorstep delivery. Easy, secure, and at your fingertips.",
-    image: Shop,
-    stack: [
-      "React",
-      "JavaScript",
-      "Redux",
-      "Node.js",
-      "Firebase",
-      "Tailwind CSS",
-    ],
-    url: "",
-    repository: "https://github.com/MohamedBoukthir/Shop-Ecommerce",
-  },
-  {
-    slug: "java-growth",
-    title: "JavaGrowth",
-    brief:
-      "Your quick reference for mastering Java programming. Essential syntax, key concepts, and tips at your fingertips.",
-    description:
-      "your go-to resource for mastering Java programming. Whether you're a beginner or an experienced developer, this concise guide provides essential syntax, key concepts, and valuable tips to enhance your coding skills. ",
-    image: Java,
-    stack: ["Java", "OOP", "IntelliJ idea"],
-    url: "",
-    repository: "https://github.com/MohamedBoukthir/JavaGrowth",
-  },
-  {
-    slug: "web-security",
-    title: "WebSecurity",
-    brief:
-      "Set up authentication, user registration, and control access effortlessly. Explore the world of safe coding with RESTful APIs.",
-    description:
-      "Learn to easily add authentication, manage user registration, and control access. Dive into the secure realm of RESTful APIs, where coding becomes safer and more straightforward.",
-    image: Security,
-    stack: [
-      "Java",
-      "JWT",
-      "IntelliJ idea",
-      "Spring",
-      "Spring Security",
-      "Spring Boot",
-      "Spring Data JPA",
-      "MySQL",
-    ],
-    url: "",
-    repository: "https://github.com/MohamedBoukthir/webSecurity",
+    repository: "https://github.com/Marwa-Khan/Micro_Services_Budget_Tracker/tree/master",
   },
 ];

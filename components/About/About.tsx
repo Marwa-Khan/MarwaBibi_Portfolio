@@ -1,5 +1,4 @@
 import Image from "next/image";
-import me from "../../public/me.jpg";
 import { technologies } from "@/constants/Technologies";
 import SectionContainer from "../SectionContainer";
 
@@ -10,16 +9,19 @@ export default function About() {
         <div className=" pt-2 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-8 lg:pt-8">
           <div className="mt-5 w-full h-px bg-zinc-800" />
 
-          <div className="flex flex-col md:flex-row space-y-8 md:space-x-8 md:space-y-0">
-            <div className="flex justify-center w-auto md:justify-start min-w-fit">
-              <Image
-                src={me}
-              alt="Marwa Bibi"
-                height={350}
-                className="object-cover w-auto"
+          <div className="flex flex-col md:flex-row md:items-start space-y-8 md:space-x-8 md:space-y-0">
+            <div className="flex justify-center md:justify-start min-w-fit md:-mt-[18px]">
+              {/* <div className="h-[300px] w-[250px] overflow-hidden rounded-[130px] border-2"> */}
+                <Image
+                src="/portfolio-pic.png"
+                alt="Marwa Bibi"
+                width={320}
+                height={320}
+                className="w-[240px] sm:w-[280px] md:w-[320px] h-auto object-contain"
                 quality={100}
-                priority={true}
+                priority
               />
+              {/* </div> */}
             </div>
             <div className="flex flex-col space-y-6">
               <article className="flex flex-col space-y-2">
@@ -32,15 +34,15 @@ export default function About() {
               </article>
               <article className="flex flex-col space-y-2 w-full ">
                 <p className=" text-sm leading-7 text-center md:text-start">
-                  I&apos;m a cybersecurity master&apos;s student passionate about keeping
-                  digital spaces safe. I also have some experience with web
-                  development.
+                  I have a background in Computer Science and Software Engineering, 
+                  with experience across AI, machine learning, software development, 
+                  and research. I enjoy building intelligent systems, 
+                  exploring new technologies, and turning ideas into practical solutions.
                 </p>
                 <p className="text-sm leading-7 text-center md:text-start">
-                  I love solving tough security problems and want to use my
-                  skills in both cybersecurity and web development to make the
-                  internet safer and better for everyone. I&apos;m excited to learn
-                  and grow in this fast-changing field
+                  My interests span machine learning, NLP, computer vision, generative AI,
+                   and intelligent software systems. I am open to both research and 
+                   industry opportunities where I can contribute, learn, and work on meaningful technology.
                 </p>
               </article>
               <article className="flex flex-col space-y-2 w-full md:w-3/4">
