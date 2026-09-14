@@ -14,46 +14,6 @@ This project serves as my online portfolio to showcase my skills, projects, and 
 - **Vercel Deployment:** The portfolio is deployed on Vercel for easy accessibility.
 
   
-
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js: Make sure you have Node.js installed on your machine.
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Marwa-Khan/MyPortfolio.git
-
-
-2. Navigate to the project directory:
-
-   ```bash
-   git clone https://github.com/MohamedBoukthir/MyPortfolio.git
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   
-4. Run the development server:
-
-   ```bash
-   npm run dev
-
-5. Open your browser and visit http://localhost:3000 to view your portfolio locally.
-
-
-## Deployment
-This portfolio is deployed using Vercel. Any changes pushed to the main branch will trigger an automatic deployment.
-
-## Feedback
-I welcome any feedback or suggestions for improvement. Feel free to open an issue or reach out to me directly.
-
 ## Contact
 
 Email: marwakhan1st@gmail.com <br/>
