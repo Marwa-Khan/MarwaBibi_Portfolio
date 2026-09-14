@@ -18,6 +18,6 @@ This project serves as my online portfolio to showcase my skills, projects, and 
 
 Email: marwakhan1st@gmail.com <br/>
 LinkedIn: https://www.linkedin.com/in/marwa-khan-sw/ <br/>
-Portfolio: https://mohamedboukthir.vercel.app/ 
+Portfolio: https://marwabibi-portfolio.vercel.app/
 
 
